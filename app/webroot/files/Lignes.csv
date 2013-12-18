@@ -1,0 +1,57 @@
+
+id,idTan,name,couleur,sens_2
+1,1,1,44794a,François Mitterrand,Beaujoire
+2,2,2,c5343a,Orvault Grand Val,Gare de Pont Rousseau
+3,3,3,4377b8,Marcel Paul,Neustrie
+3,4,ffcc33,Foch - Cathédrale,Porte de Vertou
+4,11,9b6fa9,Tertre,Jules Verne
+5,12,b5ddf3,Colinière / Jules Verne,Beauséjour
+6,21,34b4e3,Perray,Gare de Chantenay
+7,22,9b6fa9,St-Joseph de Porterie,Dervallières
+8,23,34b4e3,Haluchère,Mendès France - Bellevue
+9,24,beabd0,Commerce,Pirmil
+10,25,ffed00,Ecole Centrale - Audencia,Gare de Chantenay
+11,27,b5ddf3,La Herdrie,Pirmil
+12,28,b5ddf3,Vertou,Pirmil
+13,29,f5bac5,La Herdrie,Pirmil
+14,30,ffed00,Savarières,Trentemoult
+15,32,ed7703,Bout des Landes,Commerce
+16,33,f5bac5,Robinière / Aufrère,Espace Diderot
+17,36,00a4a7,Gréneraie,Neustrie
+18,37,009534,Neustrie,Croix Jeannette
+19,39,f5bac5,Chalonges,Pirmil
+20,42,c0d684,Vertou,Commerce
+21,47,beabd0,Pégers / Grande Noëlle,Vertou
+22,51,009534,Jonelière,Commerce
+23,52,c0893a,Hôtel de Région,Haluchère
+24,54,c0d684,Marcel Paul,Commerce
+25,56,f8b323,Hermeland,Malakoff
+26,58,f29942,Prairie au Duc/Hangar Bananes,Bd de Doulon
+27,59,f5bac5,Mendès France - Bellevue,Le Cardo
+28,70,ffed00,Gare de Chantenay,Bd de Doulon
+29,71,9b6fa9,Beaujoire,Souillarderie
+30,72,f5bac5,Gachet,Facultés
+31,73,ffed00,Mairie de St-Herblain,Rivière
+32,74,c0d684,Mendès France - Bellevue,Neustrie
+33,75,f8b323,Ste-Luce Marché / Bournière,Toutes Aides
+34,76,e9c389,Gachet / Charbonneau,Beaujoire
+35,78,b5ddf3,Gare de Thouaré,Haluchère
+36,79,f5bac5,Les Anges,Beauséjour
+37,80,f29942,Le Cardo,Beauséjour
+38,81,00a4a7,Mendès France - Bellevue,Gare Maritime
+39,82,e9c389,Le Halleray,Toutes Aides
+40,83,77ad1c,Chassay / Bellevue,Haluchère / Fac de Droit
+41,84,c0d684,Sinière,Hermeland
+42,85,f5bac5,Bois St-Lys,Haluchère
+43,86,34b4e3,Perrières / Coutancière,Bout des Pavés
+44,88,f8b323,Bouaye / Brains / St-Léger,Neustrie
+45,90,c0893a,Sautron,Orvault - Morlière
+46,91,#009534,Bac de Couëron/Couëron Bougon,Mendès France - Bellevue
+47,92,c0d684,Thouaré / Loire,Toutes Aides
+48,93,00a4a7,Hôpital Laënnec,Hauts de Couëron
+49,94,77ad1c,Les Sorinières,Gréneraie
+50,95,c0d684,Souchais,Haluchère
+51,96,f8b323,L'Aulnay,Beauséjour
+52,97,beabd0,Vertou,Trentemoult
+53,98,f8b323,St-Aignan de Grand-Lieu,Gréneraie
+54,99,f8b323,Bac du Pellerin,Neustrie

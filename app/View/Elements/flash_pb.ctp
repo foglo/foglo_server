@@ -1,0 +1,1 @@
+<div id="flashMessage" class="flash flashPb"><p class="middle"><?php echo $message; ?></p><button class="closeInfo middle">Fermer</button></div>

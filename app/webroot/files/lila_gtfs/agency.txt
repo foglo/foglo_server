@@ -1,0 +1,13 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+LIL10,"CTA",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL24,"Kéolis Atlantique Nantes",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL5,"Autocars Groussin",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL8,"CTM",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL2,"Querard",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL3,"SOVETOURS",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL6,"Hervouet",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL12,"Voyages Lefort",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL1,"Brodu Le Loroux Bottereau",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL23,"Kéolis  Atlantique La Baule",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL19,"Maury",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
+LIL29,"Cavé",http://paysdelaloire.prod.navitia.com,Europe/Paris,fr
