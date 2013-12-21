@@ -19,5 +19,10 @@ foglo.sublime-workspace
 .Trashes
 ehthumbs.db
 Thumbs.db
+<<<<<<< HEAD
 foglo.sublime-project
 foglo.sublime-workspace
+=======
+foglo.sublime-workspace
+foglo.sublime-project
+>>>>>>> docs
