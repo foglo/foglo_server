@@ -136,8 +136,6 @@ app/
     │   └── ...
     │
     └── ...
-
-
 ```
 
 La base de donnée qui correpond à tout ça est de la forme :
@@ -153,8 +151,8 @@ foglo/
 ├── upages
 ├── users
 └── widgets
-
 ```
+
 (voir `foglo.sql` pour une base préremplie)
 
 
@@ -208,17 +206,20 @@ Le compte user est vide.
 
 
 
-## TODO
+
+## Développer foglo
+
 
 Nous souhaiterions organiser le développement de foglo via deux outils dans le but d'avoir un workflow cohérent :
 
 -   Trello (voir l'organisation [foglo](https://trello.com/foglo) publique)    
-    Pour lister les idées / amélioration
-    Pour assigner des tâches à certaines personnes
-    Pour suivre l'évolution du projet
+    Pour lister les idées / amélioration     
+    Pour assigner des tâches à certaines personnes     
+    Pour suivre l'évolution du projet     
 
 -   Google Drive (voir le dossier [foglo](https://drive.google.com/folderview?id=0B5QwbGi-CtRAOFFBcDFPWndMY0E&usp=sharing) public)    
-    Pour documenter plus en profondeur certaines idées (histoire utilisateur, schéma, mockup, etc.)
+    Pour documenter plus en profondeur certaines idées (histoire utilisateur, schéma, mockup, etc.)    
+
 
 Et respecter ce processus de développement : 
 
