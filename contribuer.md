@@ -1,4 +1,3 @@
-
 Comment contribuer au développement de foglo ?
 =================================================
 
@@ -23,7 +22,7 @@ Nous utilisons [Trello](http://trello.com) pour planifier les différentes idée
 Trello permet la création de *boards* à l'intérieurs desquels on organise des *cards* sous forme de *lists*. Et c'est gratuit !    
 Pour appronfondir son fonctionnement, on vous conseille de suivre la [présentation officielle](https://trello.com/tour) de Trello.
 
-Nous avons créé une organisation *foglo* qui contient plusieurs *boards* publics. Il faut les relier mentalement selon ce schéma :
+Nous avons créé une organisation [*foglo*](https://trello.com/foglo) qui contient plusieurs *boards* publics. Il faut les relier mentalement selon ce schéma :
 
 ![Process](https://docs.google.com/drawings/d/1Xyh3efL6brmq41UdqD52PLchwJWnyUW_9RVSBksmDVk/pub?w=960&h=720 "Process : utilisation des boards foglo")
 
@@ -63,7 +62,7 @@ Il y a aussi des *boards* secondaires :
     Il liste les tâches qui ne consernent que la communication de foglo.    
     Par exemple : écriture d'un post sur le blog, partage d'une nouveauté sur les réseaux sociaux, envoie d'une newsletter.
 
-
+Rendez-vous donc sur l'oganisation [*foglo*](https://trello.com/foglo) sur Trello.
 
 
 
