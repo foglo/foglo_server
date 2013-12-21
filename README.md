@@ -8,7 +8,7 @@ Les objectifs du projet, les besoins auxquels il répond, sont synthétisés sur
 
 
 
-# Le contexte
+## Le contexte
 
 Le code publié date du primptemps 2012.   
 foglo a été créé par Martin Bonnier (design) et [Guillaume Clochard](http://github.com/guillaumewuip) (développement) pour répondre à l'appel à projets opendata de [Nantes Métropole](http://www.nantesmetropole.fr/) et a remporté le [prix étudiant](http://data.nantes.fr/appel-a-projets/).
@@ -21,7 +21,7 @@ Nous pensons l'idée de foglo importante et ne voulons pas voir le projet mourir
 
 
 
-# Le code
+## Le code
 
 Deux choses à prendre en considération :
 
@@ -31,7 +31,7 @@ Deux choses à prendre en considération :
 
 
 
-## Framework
+### Framework
 
 foglo est codé à l'aide du framework MVC [CakePHP](http://cakephp.org/), version 2.1.1. La documentation est accessible à [book.cakephp.org/2.0](http://book.cakephp.org/2.0).   
 CakePHP est aujourd'hui en version 2.4.3, foglo a du retard.
@@ -39,17 +39,17 @@ CakePHP est aujourd'hui en version 2.4.3, foglo a du retard.
 La sépartion du code sous format MVC (Model, View, Controller) permet une certaine cohérence de l'ensemble.
 
 
-### Le modèle MVC
+#### Le modèle MVC
 
 Rapidement, le principe de la structure MVC est de faire correspondre une Table de donnée avec un Modèle (qui gère les modifications des données), un Contrôleur (qui gère l'affichage, le traitement) et des vues (une vue par fonction du contrôleur).
 
 Pour aller plus loin :
 - la [structure MVC sur Wikipedia](http://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur)
-- 
+- [le modèle MVC selon CakePHP](http://book.cakephp.org/2.0/fr/cakephp-overview/understanding-model-view-controller.html)
 
 
 
-## Le coeur 
+### Le coeur 
 
 L'essentiel se passe dans `app/`.    
 Les éléments importants sont listés ci-dessous :
@@ -136,8 +136,6 @@ app/
     │   └── ...
     │
     └── ...
-
-
 ```
 
 La base de donnée qui correpond à tout ça est de la forme :
@@ -153,13 +151,13 @@ foglo/
 ├── upages
 ├── users
 └── widgets
-
 ```
+
 (voir `foglo.sql` pour une base préremplie)
 
 
 
-## Front-end
+### Front-end
 
 A l'heure actuelle, un des gros points négatifs concerne le css et le javascript : 
 
@@ -186,7 +184,7 @@ Il n'y a qu'un seul fichier javascript `webroot/js/main.js` pour tout gérer (pl
 
 
 
-# Contribuer
+## Contribuer
 
 Pour développer pour foglo, vous pouvez commencez par forker le projet.    
 Nous acceptons bien entendu les pull-request. Mais nous nous réservons le droit d'en laisser de côté, si la modification ne correspond pas à l'idée que nous avons de foglo.
@@ -208,21 +206,21 @@ Le compte user est vide.
 
 
 
-# TODO
+## Développer foglo
 
 Nous souhaiterions organiser le développement de foglo via deux outils dans le but d'avoir un workflow cohérent :
 
-- Trello (voir l'organisation [foglo](https://trello.com/foglo) publique)
-    Pour lister les idées / amélioration
-    Pour assigner des tâches à certaines personnes
-    Pour suivre l'évolution du projet
+-   Trello (voir l'organisation [foglo](https://trello.com/foglo) publique)    
+    Pour lister les idées / amélioration     
+    Pour assigner des tâches à certaines personnes     
+    Pour suivre l'évolution du projet     
 
-- Google Drive (voir le dossier [foglo](https://drive.google.com/folderview?id=0B5QwbGi-CtRAOFFBcDFPWndMY0E&usp=sharing) public)
-    Pour documenter plus en profondeur certaines idées (histoire utilisateur, schéma, mockup, etc.)
+-   Google Drive (voir le dossier [foglo](https://drive.google.com/folderview?id=0B5QwbGi-CtRAOFFBcDFPWndMY0E&usp=sharing) public)    
+    Pour documenter plus en profondeur certaines idées (histoire utilisateur, schéma, mockup, etc.)    
 
 Et respecter ce processus de développement : 
 
-![Process](https://docs.google.com/drawings/d/1Xyh3efL6brmq41UdqD52PLchwJWnyUW_9RVSBksmDVk/pub?w=960&h=720 "Process : utilisation des boards foglo").
+![Process](https://docs.google.com/drawings/d/1Xyh3efL6brmq41UdqD52PLchwJWnyUW_9RVSBksmDVk/pub?w=960&h=720 "Process : utilisation des boards foglo")
 
 Plus ici sur le fonctionnement du processus : [Contribuer](contribuer.md).
 
@@ -230,13 +228,13 @@ Plus ici sur le fonctionnement du processus : [Contribuer](contribuer.md).
 
 
 
-# Historique
+## Historique
 
 
-- primptemps 2012 : développement du projet foglo
+- Primptemps 2012 : développement du projet foglo
 - 25 juin 2012 : remise du prix étuditant du concours [opendata Nantes Métropole](http://data.nantes.fr)
-- semptembre 2012 : nouveaux widgets
-- décembre 2013 : publication du code en open-source
+- Semptembre 2012 : nouveaux widgets
+- Décembre 2013 : publication du code en open-source
 
 
 
