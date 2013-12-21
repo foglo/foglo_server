@@ -1,4 +1,3 @@
-
 # Le blog
 /blog
 
@@ -6,6 +5,10 @@
 /app/tmp
 /lib/Cake/Console/Templates/skel/tmp/
 
+
+# ST
+foglo.sublime-project
+foglo.sublime-workspace
 
 # OS generated files #
 ######################
@@ -16,3 +19,10 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+<<<<<<< HEAD
+foglo.sublime-project
+foglo.sublime-workspace
+=======
+foglo.sublime-workspace
+foglo.sublime-project
+>>>>>>> docs
