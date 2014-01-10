@@ -205,7 +205,7 @@ Le compte user est vide.
 
 ### Installation sous Linux (Debian/Ubuntu)
 
-Dans votre ordinateur il faut installer Apache2, MySQL, PHP5 et Git (pour cloner le dépôt) avec la commande
+Sous linux, il faut installer Apache2, MySQL, PHP5 et Git (pour cloner le dépôt) avec les commandes :
 
     sudo apt-get update
     sudo apt-get install apache2 php5 mysql-server libapache2-mod-php5 php5-mysql git
@@ -215,32 +215,33 @@ Dans votre ordinateur il faut installer Apache2, MySQL, PHP5 et Git (pour cloner
     sudo ln -s $PWD/foglo_server /var/www/foglo_server
     cd foglo_server/
 
-ajouter un virtual host dans la configuration d'Apache2 vous pouvez copier le fichier `foglo.vhost`
+Puis il faut ajouter un virtual host dans la configuration d'Apache2. 
+Le plus simple est de copier le fichier `foglo.vhost`.
 
     sudo cp foglo.vhost /etc/apache2/sites-available/foglo.local
     sudo a2ensite foglo.local
     sudo a2enmod rewrite
     sudo service apache2 reload
 
-il faut aussi éditer le ficher `/etc/hosts` avec un éditeur de texte et changer la ligne
+Il faut aussi éditer le ficher `/etc/hosts` avec un éditeur de texte et changer la ligne :
 
     127.0.0.1       localhost
 
-par
+par :
 
     127.0.0.1       localhost foglo.local
 
-après pour charger la base de données
+Ensuite, pour charger la base de données, faire la commande :
 
     mysql -u root -p < foglo.sql
 
-créer les répertoires temporaires
+Enfin, il faut créer les répertoires temporaires pour CakePHP et modifier leurs droits d'accès :
 
     mkdir -p app/tmp/cache/persistent
     mkdir -p app/tmp/cache/models
     sudo chown -R www-data:www-data app/tmp/
 
-et sur votre navigateur web l'URL http://foglo.local/ devrait afficher le site web foglo.
+Si tout va bien, dans votre navigateur web l'URL http://foglo.local/ devrait afficher le site web foglo.
 
 
 ## Développer foglo
