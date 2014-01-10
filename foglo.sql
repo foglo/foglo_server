@@ -1304,7 +1304,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` VALUES(1, 'Noname', 'Noname', 'noname@foglo.fr', '52a5215e2b2a7733d9c61bcfbeb93cf5375738b3', 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '2012-05-07 20:36:12', 0);
-INSERT INTO `users` VALUES(25, 'admin', 'admin', 'admin@foglo.com', '908ac03e60f9cf49099f4cb48b96fe6bace4ec9b', 1, '2012-07-01 12:00:00', '2012-04-05 20:22:30', '2013-12-21 15:01:26', 0);
+INSERT INTO `users` VALUES(25, 'admin', 'admin', 'admin@foglo.fr', '908ac03e60f9cf49099f4cb48b96fe6bace4ec9b', 1, '2012-07-01 12:00:00', '2012-04-05 20:22:30', '2013-12-21 15:01:26', 0);
 INSERT INTO `users` VALUES(26, 'user', 'user', 'user@foglo.fr', '52a5215e2b2a7733d9c61bcfbeb93cf5375738b3', 2, '2012-08-31 12:00:00', '2012-05-12 10:02:06', '2013-12-21 15:04:12', 0);
 
 -- --------------------------------------------------------
