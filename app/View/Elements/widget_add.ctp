@@ -12,6 +12,7 @@
 												'rss'      => 'Rss',
 												// 'lila'     => 'Lila',
 												'facebook' => 'Facebook',
+												'bicloo'   => 'Bicloo',
 											 ),
 									 	'label' => 'Widget : '));
 	echo $this->Form->input('user_id', array(

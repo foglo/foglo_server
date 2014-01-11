@@ -187,6 +187,15 @@ class WidgetsController extends AppController{
 									$stop = true;
 								}
 								break;
+							case 'bicloo':
+								if(count($widgets) >= 3)
+								{
+									$error = array();
+									$error['msg'] = "Le nombre maximum de widgets Bicloo autorisé pour un compte gratuit est atteint.";
+									$error['type'] = 'closeWidget';
+									$stop = true;
+								}
+								break;								
 							
 							default:
 								break;
@@ -299,6 +308,13 @@ class WidgetsController extends AppController{
 
 							//Widget Rss
 							case 'rss':
+								$data['Data'] = array();
+								$data['Data']['data_1'] = '';
+								$data['Data']['widget_id'] = $this->Widget->id;
+								break;
+
+							//Widget Bicloo
+							case 'bicloo':
 								$data['Data'] = array();
 								$data['Data']['data_1'] = '';
 								$data['Data']['widget_id'] = $this->Widget->id;
@@ -431,6 +447,21 @@ class WidgetsController extends AppController{
 					}
 					$this->set('userConnected', $userConnected);
 					break;
+
+				case 'bicloo':
+					//On va chercher la station pour envoi à la vue
+					$this->loadModel('BiclooStation');
+					$stations = $this->BiclooStation->find('list', array('fields' => array('BiclooStation.name')));
+					$this->set('stations', $stations);
+					//Si pas de stations
+					if(!$stations) {
+						$stop = true;
+						$error = array(
+							'msg' => "Il n'y a pas de station disponible. Edition du widget impossible.",
+							'type' => 'closeWidget'
+						);
+					}
+					break;
 			}
 
 		/* End fonction widget */
@@ -542,6 +573,10 @@ class WidgetsController extends AppController{
 							}
 						}
 
+						break;
+
+					//Widget Bicloo
+					case 'bicloo':
 						break;
 
 					default:
@@ -1476,6 +1511,24 @@ class WidgetsController extends AppController{
 						}
 
 						break;
+
+					// Widget Bicloo
+					case 'bicloo':
+						//Si on a bien une station en db
+						if(isset($widget['Data']['data_1']))
+						{ 
+							//On cherche l'ID de la station
+							$this->loadModel('BiclooStation');
+							$station = $this->BiclooStation->findById($widget['Data']['data_1']);
+							$this->set('station', $station);
+						}
+						else
+						{
+							$error = 'Aucun station configurée.';
+							$this->redirect(array('action' => 'edit', $widget['Widget']['id'], $error));
+						}
+						break;
+
 
 					default:
 						break;
