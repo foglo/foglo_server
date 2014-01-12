@@ -1,6 +1,9 @@
 # Le blog
 /blog
 
+#Quelques Config de Cake qui dépendent de la machine
+app/Config/database.php
+
 # Fichiers tmp de CakePHP
 /app/tmp
 /lib/Cake/Console/Templates/skel/tmp/
