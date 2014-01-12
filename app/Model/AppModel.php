@@ -34,7 +34,7 @@ class AppModel extends Model {
 
 	var $cleanData = true;
 
-	public function beforeSave()
+	public function beforeSave($options = array())
 	{
 
 		if(empty($this->data)) {
