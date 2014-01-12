@@ -1304,7 +1304,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` VALUES(1, 'Noname', 'Noname', 'noname@foglo.fr', '52a5215e2b2a7733d9c61bcfbeb93cf5375738b3', 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00', '2012-05-07 20:36:12', 0);
-INSERT INTO `users` VALUES(25, 'admin', 'admin', 'admin@foglo.com', '908ac03e60f9cf49099f4cb48b96fe6bace4ec9b', 1, '2012-07-01 12:00:00', '2012-04-05 20:22:30', '2013-12-21 15:01:26', 0);
+INSERT INTO `users` VALUES(25, 'admin', 'admin', 'admin@foglo.fr', '908ac03e60f9cf49099f4cb48b96fe6bace4ec9b', 1, '2012-07-01 12:00:00', '2012-04-05 20:22:30', '2013-12-21 15:01:26', 0);
 INSERT INTO `users` VALUES(26, 'user', 'user', 'user@foglo.fr', '52a5215e2b2a7733d9c61bcfbeb93cf5375738b3', 2, '2012-08-31 12:00:00', '2012-05-12 10:02:06', '2013-12-21 15:04:12', 0);
 
 -- --------------------------------------------------------
@@ -1348,3 +1348,28 @@ INSERT INTO `widgets` VALUES(472, 25, 'meteo', 0, '', 1, '2012-09-17 21:43:38', 
 INSERT INTO `widgets` VALUES(473, 25, 'tan', 0, '', 8, '2012-10-10 19:38:07', '2012-10-11 10:18:25', 0);
 INSERT INTO `widgets` VALUES(474, 25, 'twitter', 0, '', 1, '2013-11-01 22:33:40', '2013-11-01 22:33:40', 0);
 INSERT INTO `widgets` VALUES(475, 25, 'air', 0, '', 1, '2013-11-01 22:35:51', '2013-11-01 22:35:51', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `bicloo_stations`
+--
+
+CREATE TABLE IF NOT EXISTS `bicloo_stations` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `station` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `bike_stands` int(11) NOT NULL,
+  `available_bike_stands` int(11) NOT NULL,
+  `available_bikes` int(11) NOT NULL,
+  `last_update` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `bicloo_stations`
+--
+
+INSERT INTO `bicloo_stations` (`id`, `station`, `name`, `bike_stands`, `available_bike_stands`, `available_bikes`, `last_update`) VALUES
+(1, 84, 'RÉGION', 19, 14, 5, '2014-01-11 00:28:09'),
+(2, 38, 'PLACE RICORDEAU', 40, 38, 2, '2014-01-11 00:28:09');
