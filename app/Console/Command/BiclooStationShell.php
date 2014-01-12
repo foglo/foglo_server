@@ -26,7 +26,7 @@ class BiclooStationShell extends AppShell {
 	*/
 	public function update() {
 		// Get stations from API
-		$apiKey = '';
+		$apiKey = '8f42706e07cbc22378749165c9e1533d07389fae';
 		$apiURL = 'https://api.jcdecaux.com/vls/v1/stations?contract=nantes&apiKey='.$apiKey;
 		$this->out('Getting data from '.$apiURL.'...');
 		$stations = json_decode(@file_get_contents($apiURL), true);
