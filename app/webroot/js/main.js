@@ -310,7 +310,7 @@ $(document).ready(function(){
 	function _slider(widget) {
 		var name = $(widget).find('div.content').data('name');
 		//Si widget à slider
-		if(name == 'tan' || name == 'perso' || name == 'twitter' || name == 'horloge' || name == 'air' || name == 'rss' || name == 'facebook')
+		if(name == 'tan' || name == 'perso' || name == 'twitter' || name == 'horloge' || name == 'air' || name == 'rss' || name == 'facebook' || name == 'bicloo')
 		{
 			//Init
 			var slider = $(widget).find('div.slider');
