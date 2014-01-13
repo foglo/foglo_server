@@ -386,7 +386,7 @@ $(document).ready(function(){
 					//Activation des select2 par défaut
 					//select évolué, avec champ de recherche
 					$('.select2').select2({
-						placeholder: "Choisissez une options",
+						placeholder: "Choisissez une option",
 						allowClear: true
 					});
 
