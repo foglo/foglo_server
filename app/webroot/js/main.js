@@ -383,6 +383,13 @@ $(document).ready(function(){
 				//Si widget Tan, lacement completeTan(), pareil pour Lila
 				if(typeof(name) != 'undefined')
 				{
+					//Activation des select2 par défaut
+					//select évolué, avec champ de recherche
+					$('.select2').select2({
+						placeholder: "Choisissez une option",
+						allowClear: true
+					});
+
 					if(name == 'tan'){
 						completeTan(widget);
 					}

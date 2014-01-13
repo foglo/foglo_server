@@ -2508,34 +2508,40 @@ form.facebook div.select2-container
 				position: relative;
 			}
 /* Bicloo */
-div.widget.bicloo div.content .title {
-	padding: 14px 0 0 10px;
-	text-align: left;
-	height: 18%;
+div.widget.bicloo div.content {
+	overflow: hidden !important;
 }
-	div.widget.bicloo div.content .title img{
-		width: 48px;
-		margin-right: 4px;
-	}
-	div.widget.bicloo div.content .title h1 {
-		margin: 0;
-		text-align: left;
-		width: auto;
-		max-width: 82%;
-		max-height: 41px;
-		overflow: hidden;
-	}
-div.widget.bicloo div.content .details {
-	margin-top: 16px;
-}
-	div.widget.bicloo div.content .details div {
+	div.widget.bicloo div.content .slider{
 		height: 100%;
-		width: 49%;
 	}
-		div.widget.bicloo div.content .details h1 {
-			font-size: 70px;
-			margin: 0;
+		div.widget.bicloo div.content .title {
+			padding: 14px 0 0 10px;
+			text-align: left;
+			height: 18%;
 		}
+			div.widget.bicloo div.content .title img{
+				width: 48px;
+				margin-right: 4px;
+			}
+			div.widget.bicloo div.content .title h1 {
+				margin: 0;
+				text-align: left;
+				width: auto;
+				max-width: 82%;
+				max-height: 41px;
+				overflow: hidden;
+			}
+		div.widget.bicloo div.content .details {
+			margin-top: 16px;
+		}
+			div.widget.bicloo div.content .details div {
+				height: 100%;
+				width: 49%;
+			}
+				div.widget.bicloo div.content .details h1 {
+					font-size: 70px;
+					margin: 0;
+				}
 
 /* ---- ---- ---- SliderTV ---- ---- ---- */
 	div.sliderkitTV-panels div.sliderkitTV-panel
