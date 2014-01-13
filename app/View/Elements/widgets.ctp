@@ -13,6 +13,7 @@
 		<div draggable="true" class="widget" data-type="rss"><p>Rss</p></div>
 		<!-- <div draggable="true" class="widget" data-type="lila"><p>lila</p></div> -->
 		<div draggable="true" class="widget" data-type="facebook"><p>facebook</p></div>
+		<div draggable="true" class="widget" data-type="bicloo"><p>Bicloo</p></div>		
 	<?php 
 		//Widget personnalisable 
 		if($this->Session->read('Auth.User.premium') == 1 || $this->Session->read('Auth.User.group_id') == 1 || $this->Session->read('Auth.User.group_id') == 3): 

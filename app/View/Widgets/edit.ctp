@@ -264,6 +264,28 @@
 						));
 						break;
 
+					//Stations Bicloo
+					case 'bicloo':
+						echo $this->Form->input('Data.id', array(
+								'value' => $widget['Data']['id'],
+								'type'  => 'hidden'
+							));
+
+						echo '<div class="station">';
+						$options = $stations ?: array();
+
+						echo $this->Form->input('Data.data_1', array(
+								'label' => false,
+								'type'  => 'select',
+								'div'   => false,
+								'options' => $options,
+								'class' => 'select2 station'
+							));
+
+						echo $this->Html->image('ajax-loader.gif', array('class' => 'loader'));
+						echo '</div> <br />';
+						break;
+
 					default:
 						break;
 				}

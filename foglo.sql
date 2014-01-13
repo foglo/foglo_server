@@ -1348,3 +1348,28 @@ INSERT INTO `widgets` VALUES(472, 25, 'meteo', 0, '', 1, '2012-09-17 21:43:38', 
 INSERT INTO `widgets` VALUES(473, 25, 'tan', 0, '', 8, '2012-10-10 19:38:07', '2012-10-11 10:18:25', 0);
 INSERT INTO `widgets` VALUES(474, 25, 'twitter', 0, '', 1, '2013-11-01 22:33:40', '2013-11-01 22:33:40', 0);
 INSERT INTO `widgets` VALUES(475, 25, 'air', 0, '', 1, '2013-11-01 22:35:51', '2013-11-01 22:35:51', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `bicloo_stations`
+--
+
+CREATE TABLE IF NOT EXISTS `bicloo_stations` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `station` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `bike_stands` int(11) NOT NULL,
+  `available_bike_stands` int(11) NOT NULL,
+  `available_bikes` int(11) NOT NULL,
+  `last_update` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Contenu de la table `bicloo_stations`
+--
+
+INSERT INTO `bicloo_stations` (`id`, `station`, `name`, `bike_stands`, `available_bike_stands`, `available_bikes`, `last_update`) VALUES
+(1, 84, 'RÉGION', 19, 14, 5, '2014-01-11 00:28:09'),
+(2, 38, 'PLACE RICORDEAU', 40, 38, 2, '2014-01-11 00:28:09');
