@@ -266,13 +266,16 @@
 
 					//Stations Bicloo
 					case 'bicloo':
+
 						echo $this->Form->input('Data.id', array(
 								'value' => $widget['Data']['id'],
 								'type'  => 'hidden'
 							));
 
 						echo '<div class="station">';
-						$options = $stations ?: array();
+
+						$option = array('' => "");
+						$options = $option + ($stations ?: array());
 
 						echo $this->Form->input('Data.data_1', array(
 								'label' => false,
